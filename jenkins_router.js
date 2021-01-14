@@ -46,12 +46,20 @@ const getAverageDuration = (labels, jobs) => {
     .map((duration) => duration / 1000);
 };
 
-router.get('/perDayStats', (req, res) => {
-  const endDate = new Date();
-  const startDate = new Date(endDate - 5 * 24 * 60 * 60 * 1000);
-  const jobs = data.job.builds.filter(
+const filterByDate = (builds, startDate, endDate) => {
+  return builds.filter(
     ({build: {timestamp}}) => timestamp >= startDate && timestamp <= endDate
   );
+};
+
+const getStartAndEndDates = (days) => {
+  const endDate = new Date();
+  const startDate = new Date(endDate - days * 24 * 60 * 60 * 1000);
+  return [startDate, endDate];
+};
+
+router.get('/perDayStats', (req, res) => {
+  const jobs = filterByDate(data.job.builds, ...getStartAndEndDates(5));
   const labels = getLabels();
   const succeededJobs = filterJobs(labels, jobs, 'SUCCESS');
   const failedJobs = filterJobs(labels, jobs, '[^SUCCESS]');
@@ -67,6 +75,21 @@ router.get('/latestBuilds', (req, res) => {
     url: job.url,
   }));
   res.json(latestJobs);
+});
+
+router.get('/recentBuildsCount', (req, res) => {
+  const last5Days = filterByDate(data.job.builds, ...getStartAndEndDates(5))
+    .length;
+  const last10Days = filterByDate(data.job.builds, ...getStartAndEndDates(10))
+    .length;
+  const last15Days = filterByDate(data.job.builds, ...getStartAndEndDates(15))
+    .length;
+  const counts = [
+    {title: 'Last 5 days', count: last5Days},
+    {title: 'Last 10 days', count: last10Days},
+    {title: 'Last 15 days', count: last15Days},
+  ];
+  res.json(counts);
 });
 
 module.exports = {router};
