@@ -7,7 +7,7 @@ const getLabels = () => {
   const labels = [];
   for (let i = 4; i >= 0; i--) {
     const date = new Date(new Date() - i * 24 * 60 * 60 * 1000);
-    labels.push([date.getDate(), date.getMonth()]);
+    labels.push([date.getDate(), date.getMonth() + 1]);
   }
   return labels;
 };
@@ -18,7 +18,7 @@ const filterJobs = (labels, jobs, regex) =>
       const {timestamp: ts} = job.build;
       const [jobDate, jobMonth] = [
         new Date(ts).getDate(),
-        new Date(ts).getMonth(),
+        new Date(ts).getMonth() + 1,
       ];
       return (
         date === jobDate && month === jobMonth && job.build.result.match(regex)
@@ -33,7 +33,7 @@ const getAverageDuration = (labels, jobs) => {
         const {timestamp: ts} = job.build;
         const [jobDate, jobMonth] = [
           new Date(ts).getDate(),
-          new Date(ts).getMonth(),
+          new Date(ts).getMonth() + 1,
         ];
         return date === jobDate && month === jobMonth;
       });
