@@ -48,7 +48,7 @@ const getAverageDuration = (labels, jobs) => {
 
 router.get('/perDayStats', (req, res) => {
   const endDate = new Date();
-  const startDate = new Date(endDate - 60 * 24 * 60 * 60 * 1000);
+  const startDate = new Date(endDate - 5 * 24 * 60 * 60 * 1000);
   const jobs = data.job.builds.filter(
     ({build: {timestamp}}) => timestamp >= startDate && timestamp <= endDate
   );
@@ -57,6 +57,16 @@ router.get('/perDayStats', (req, res) => {
   const failedJobs = filterJobs(labels, jobs, '[^SUCCESS]');
   const averageDurations = getAverageDuration(labels, jobs);
   res.json({labels, succeededJobs, failedJobs, averageDurations});
+});
+
+router.get('/latestBuilds', (req, res) => {
+  const last5Jobs = data.job.builds.slice(0, 5);
+  const latestJobs = last5Jobs.map((job) => ({
+    status: job.build.result,
+    number: job.number,
+    url: job.url,
+  }));
+  res.json(latestJobs);
 });
 
 module.exports = {router};
