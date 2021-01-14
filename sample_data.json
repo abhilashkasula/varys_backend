@@ -1,0 +1,2875 @@
+{
+  "url": "http://localhost:8889/job/hello_world_android/",
+  "job": {
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+    "actions": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {"_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"}
+    ],
+    "description": "",
+    "displayName": "hello_world_android",
+    "displayNameOrNull": null,
+    "fullDisplayName": "hello_world_android",
+    "fullName": "hello_world_android",
+    "name": "hello_world_android",
+    "url": "http://localhost:8889/job/hello_world_android/",
+    "buildable": true,
+    "builds": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 21,
+        "url": "http://localhost:8889/job/hello_world_android/21/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 21,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                    "branch": [
+                      {
+                        "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                    "branch": [
+                      {
+                        "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                "branch": [
+                  {
+                    "SHA1": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#21",
+          "duration": 367136,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #21",
+          "id": "21",
+          "keepLog": false,
+          "number": 21,
+          "queueId": 99,
+          "result": "SUCCESS",
+          "timestamp": 1610622353101,
+          "url": "http://localhost:8889/job/hello_world_android/21/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                  "timestamp": 1604381811000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-03 11:06:51 +0530",
+                  "id": "1fddf06fbda280fb9d407990f01fd02c30c75798",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": null,
+          "previousBuild": {
+            "number": 20,
+            "url": "http://localhost:8889/job/hello_world_android/20/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 20,
+        "url": "http://localhost:8889/job/hello_world_android/20/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 20,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                    "branch": [
+                      {
+                        "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                    "branch": [
+                      {
+                        "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                "branch": [
+                  {
+                    "SHA1": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#20",
+          "duration": 364916,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #20",
+          "id": "20",
+          "keepLog": false,
+          "number": 20,
+          "queueId": 96,
+          "result": "SUCCESS",
+          "timestamp": 1610535953101,
+          "url": "http://localhost:8889/job/hello_world_android/20/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                  "timestamp": 1604322646000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 18:40:46 +0530",
+                  "id": "bccf44fe7e4f46e1e34fedb3eeef2df0f0cc4209",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 21,
+            "url": "http://localhost:8889/job/hello_world_android/21/"
+          },
+          "previousBuild": {
+            "number": 19,
+            "url": "http://localhost:8889/job/hello_world_android/19/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 19,
+        "url": "http://localhost:8889/job/hello_world_android/19/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 19,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                    "branch": [
+                      {
+                        "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                    "branch": [
+                      {
+                        "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                "branch": [
+                  {
+                    "SHA1": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {"_class": "jenkins.model.InterruptedBuildAction"},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#19",
+          "duration": 57834,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #19",
+          "id": "19",
+          "keepLog": false,
+          "number": 19,
+          "queueId": 92,
+          "result": "ABORTED",
+          "timestamp": 1610449553101,
+          "url": "http://localhost:8889/job/hello_world_android/19/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                  "timestamp": 1604322449000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 18:37:29 +0530",
+                  "id": "45158ea45086aeb02fc2d554296cd77f61009fb9",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 20,
+            "url": "http://localhost:8889/job/hello_world_android/20/"
+          },
+          "previousBuild": {
+            "number": 18,
+            "url": "http://localhost:8889/job/hello_world_android/18/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 18,
+        "url": "http://localhost:8889/job/hello_world_android/18/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 18,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                    "branch": [
+                      {
+                        "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                    "branch": [
+                      {
+                        "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                "branch": [
+                  {
+                    "SHA1": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#18",
+          "duration": 408350,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #18",
+          "id": "18",
+          "keepLog": false,
+          "number": 18,
+          "queueId": 89,
+          "result": "SUCCESS",
+          "timestamp": 1604322125188,
+          "url": "http://localhost:8889/job/hello_world_android/18/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile", "Dockerfile"],
+                  "commitId": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                  "timestamp": 1604322105000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile and Dockerfile\n",
+                  "date": "2020-11-02 18:31:45 +0530",
+                  "id": "dba713c73c2895bff6a904be44ad9446c6e5815f",
+                  "msg": "update Jenkinsfile and Dockerfile",
+                  "paths": [
+                    {"editType": "edit", "file": "Dockerfile"},
+                    {"editType": "edit", "file": "Jenkinsfile"}
+                  ]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 19,
+            "url": "http://localhost:8889/job/hello_world_android/19/"
+          },
+          "previousBuild": {
+            "number": 17,
+            "url": "http://localhost:8889/job/hello_world_android/17/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "http://localhost:8889/job/hello_world_android/17/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 17,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                    "branch": [
+                      {
+                        "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                    "branch": [
+                      {
+                        "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                "branch": [
+                  {
+                    "SHA1": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#17",
+          "duration": 278011,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #17",
+          "id": "17",
+          "keepLog": false,
+          "number": 17,
+          "queueId": 87,
+          "result": "FAILURE",
+          "timestamp": 1604321818461,
+          "url": "http://localhost:8889/job/hello_world_android/17/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Dockerfile"],
+                  "commitId": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                  "timestamp": 1604321809000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 18:26:49 +0530",
+                  "id": "6a1b4b38a445dc5641e5af29e498f49b06bdd8b5",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Dockerfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 18,
+            "url": "http://localhost:8889/job/hello_world_android/18/"
+          },
+          "previousBuild": {
+            "number": 16,
+            "url": "http://localhost:8889/job/hello_world_android/16/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 16,
+        "url": "http://localhost:8889/job/hello_world_android/16/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 16,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "branch": [
+                      {
+                        "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "branch": [
+                      {
+                        "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                "branch": [
+                  {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#16",
+          "duration": 203587,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #16",
+          "id": "16",
+          "keepLog": false,
+          "number": 16,
+          "queueId": 85,
+          "result": "FAILURE",
+          "timestamp": 1604320551729,
+          "url": "http://localhost:8889/job/hello_world_android/16/",
+          "changeSets": [],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 17,
+            "url": "http://localhost:8889/job/hello_world_android/17/"
+          },
+          "previousBuild": {
+            "number": 15,
+            "url": "http://localhost:8889/job/hello_world_android/15/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 15,
+        "url": "http://localhost:8889/job/hello_world_android/15/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 15,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "branch": [
+                      {
+                        "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "branch": [
+                      {
+                        "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                "branch": [
+                  {
+                    "SHA1": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#15",
+          "duration": 303836,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #15",
+          "id": "15",
+          "keepLog": false,
+          "number": 15,
+          "queueId": 83,
+          "result": "FAILURE",
+          "timestamp": 1604320088259,
+          "url": "http://localhost:8889/job/hello_world_android/15/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "dc9f01dda781d2cd3f054d81d3c71f51a55f9ac3",
+                  "timestamp": 1604319982000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "building and testing parallely\n",
+                  "date": "2020-11-02 17:56:22 +0530",
+                  "id": "dc9f01dda781d2cd3f054d81d3c71f51a55f9ac3",
+                  "msg": "building and testing parallely",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                },
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                  "timestamp": 1604320074000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 17:57:54 +0530",
+                  "id": "1eaeaa0786eb61acb25d7c1704a4d9c2c40fb823",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 16,
+            "url": "http://localhost:8889/job/hello_world_android/16/"
+          },
+          "previousBuild": {
+            "number": 14,
+            "url": "http://localhost:8889/job/hello_world_android/14/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 14,
+        "url": "http://localhost:8889/job/hello_world_android/14/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#14",
+          "duration": 4819,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #14",
+          "id": "14",
+          "keepLog": false,
+          "number": 14,
+          "queueId": 82,
+          "result": "FAILURE",
+          "timestamp": 1604319994025,
+          "url": "http://localhost:8889/job/hello_world_android/14/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 15,
+            "url": "http://localhost:8889/job/hello_world_android/15/"
+          },
+          "previousBuild": {
+            "number": 13,
+            "url": "http://localhost:8889/job/hello_world_android/13/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 13,
+        "url": "http://localhost:8889/job/hello_world_android/13/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 13,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "branch": [
+                      {
+                        "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "branch": [
+                      {
+                        "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                "branch": [
+                  {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#13",
+          "duration": 504848,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #13",
+          "id": "13",
+          "keepLog": false,
+          "number": 13,
+          "queueId": 80,
+          "result": "SUCCESS",
+          "timestamp": 1604319417176,
+          "url": "http://localhost:8889/job/hello_world_android/13/",
+          "changeSets": [],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 14,
+            "url": "http://localhost:8889/job/hello_world_android/14/"
+          },
+          "previousBuild": {
+            "number": 12,
+            "url": "http://localhost:8889/job/hello_world_android/12/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 12,
+        "url": "http://localhost:8889/job/hello_world_android/12/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 12,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "branch": [
+                      {
+                        "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "branch": [
+                      {
+                        "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                "branch": [
+                  {
+                    "SHA1": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {"_class": "jenkins.model.InterruptedBuildAction"},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#12",
+          "duration": 216977,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #12",
+          "id": "12",
+          "keepLog": false,
+          "number": 12,
+          "queueId": 78,
+          "result": "ABORTED",
+          "timestamp": 1604319160929,
+          "url": "http://localhost:8889/job/hello_world_android/12/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "99232a5ef1e438e3301d53bea50a60ef46dffd65",
+                  "timestamp": 1604319028000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "added Test stage\n",
+                  "date": "2020-11-02 17:40:28 +0530",
+                  "id": "99232a5ef1e438e3301d53bea50a60ef46dffd65",
+                  "msg": "added Test stage",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                },
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                  "timestamp": 1604319143000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 17:42:23 +0530",
+                  "id": "7c869269df78fe652b8ab12065793182f9e0fae7",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 13,
+            "url": "http://localhost:8889/job/hello_world_android/13/"
+          },
+          "previousBuild": {
+            "number": 11,
+            "url": "http://localhost:8889/job/hello_world_android/11/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 11,
+        "url": "http://localhost:8889/job/hello_world_android/11/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#11",
+          "duration": 5056,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #11",
+          "id": "11",
+          "keepLog": false,
+          "number": 11,
+          "queueId": 77,
+          "result": "FAILURE",
+          "timestamp": 1604319043695,
+          "url": "http://localhost:8889/job/hello_world_android/11/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 12,
+            "url": "http://localhost:8889/job/hello_world_android/12/"
+          },
+          "previousBuild": {
+            "number": 10,
+            "url": "http://localhost:8889/job/hello_world_android/10/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 10,
+        "url": "http://localhost:8889/job/hello_world_android/10/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 10,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "branch": [
+                      {
+                        "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "branch": [
+                      {
+                        "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                "branch": [
+                  {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#10",
+          "duration": 456021,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #10",
+          "id": "10",
+          "keepLog": false,
+          "number": 10,
+          "queueId": 75,
+          "result": "SUCCESS",
+          "timestamp": 1604305381163,
+          "url": "http://localhost:8889/job/hello_world_android/10/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 11,
+            "url": "http://localhost:8889/job/hello_world_android/11/"
+          },
+          "previousBuild": {
+            "number": 9,
+            "url": "http://localhost:8889/job/hello_world_android/9/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 9,
+        "url": "http://localhost:8889/job/hello_world_android/9/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 9,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "branch": [
+                      {
+                        "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "branch": [
+                      {
+                        "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                "branch": [
+                  {
+                    "SHA1": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#9",
+          "duration": 368759,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #9",
+          "id": "9",
+          "keepLog": false,
+          "number": 9,
+          "queueId": 73,
+          "result": "SUCCESS",
+          "timestamp": 1604304088532,
+          "url": "http://localhost:8889/job/hello_world_android/9/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                  "timestamp": 1604304060000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-11-02 13:31:00 +0530",
+                  "id": "4cc53667f7833cadb6cd47d04173c381a4b58c0f",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 10,
+            "url": "http://localhost:8889/job/hello_world_android/10/"
+          },
+          "previousBuild": {
+            "number": 8,
+            "url": "http://localhost:8889/job/hello_world_android/8/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 8,
+        "url": "http://localhost:8889/job/hello_world_android/8/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 8,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "branch": [
+                      {
+                        "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "branch": [
+                      {
+                        "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                "branch": [
+                  {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#8",
+          "duration": 339647,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #8",
+          "id": "8",
+          "keepLog": false,
+          "number": 8,
+          "queueId": 71,
+          "result": "SUCCESS",
+          "timestamp": 1604302547061,
+          "url": "http://localhost:8889/job/hello_world_android/8/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 9,
+            "url": "http://localhost:8889/job/hello_world_android/9/"
+          },
+          "previousBuild": {
+            "number": 7,
+            "url": "http://localhost:8889/job/hello_world_android/7/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 7,
+        "url": "http://localhost:8889/job/hello_world_android/7/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 7,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "branch": [
+                      {
+                        "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "branch": [
+                      {
+                        "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                "branch": [
+                  {
+                    "SHA1": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#7",
+          "duration": 280121,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #7",
+          "id": "7",
+          "keepLog": false,
+          "number": 7,
+          "queueId": 69,
+          "result": "SUCCESS",
+          "timestamp": 1604302166085,
+          "url": "http://localhost:8889/job/hello_world_android/7/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile", "Dockerfile"],
+                  "commitId": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                  "timestamp": 1604302154000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Dockerfile Jenkinsfile\n",
+                  "date": "2020-11-02 12:59:14 +0530",
+                  "id": "304bc22775a382c2d43eb0e91f040508ee6ba25f",
+                  "msg": "update Dockerfile Jenkinsfile",
+                  "paths": [
+                    {"editType": "edit", "file": "Dockerfile"},
+                    {"editType": "edit", "file": "Jenkinsfile"}
+                  ]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 8,
+            "url": "http://localhost:8889/job/hello_world_android/8/"
+          },
+          "previousBuild": {
+            "number": 6,
+            "url": "http://localhost:8889/job/hello_world_android/6/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 6,
+        "url": "http://localhost:8889/job/hello_world_android/6/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 6,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                    "branch": [
+                      {
+                        "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                    "branch": [
+                      {
+                        "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                "branch": [
+                  {
+                    "SHA1": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#6",
+          "duration": 336278,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #6",
+          "id": "6",
+          "keepLog": false,
+          "number": 6,
+          "queueId": 67,
+          "result": "FAILURE",
+          "timestamp": 1604301685111,
+          "url": "http://localhost:8889/job/hello_world_android/6/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile", "Dockerfile"],
+                  "commitId": "dc4024bce166b6296970e16e63a20d04fd34268a",
+                  "timestamp": 1604301532000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Dockerfile Jenkinsfile\n",
+                  "date": "2020-11-02 12:48:52 +0530",
+                  "id": "dc4024bce166b6296970e16e63a20d04fd34268a",
+                  "msg": "update Dockerfile Jenkinsfile",
+                  "paths": [
+                    {"editType": "edit", "file": "Jenkinsfile"},
+                    {"editType": "edit", "file": "Dockerfile"}
+                  ]
+                },
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": [
+                    "?/.android/cache/sdkbin-1_d1bcd755-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_b735609c-repository2-1_xml",
+                    "?/.android/cache/sdkbin-1_027553a3-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_53d0da2b-addon2-1_xml",
+                    "?/.android/cache/sdkbin-1_d79225ab-addon2-1_xml",
+                    "?/.android/analytics.settings",
+                    "Jenkinsfile",
+                    "?/.android/cache/sdkinf-1_21774538-addon2-1_xml",
+                    "?/.android/cache/sdkbin-1_725a2f81-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_70436d91-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_b735609c-repository2-1_xml",
+                    "?/.android/cache/sdkinf-1_725a2f81-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_d29da320-addons_list-3_xml",
+                    "?/.android/cache/sdkinf-1_6dabee33-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_754d6006-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_21774538-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_d79225ab-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_027553a3-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_d29da320-addons_list-3_xml",
+                    "?/.android/cache/sdkinf-1_53d0da2b-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_48262a29-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_48262a29-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_754d6006-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_6dabee33-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_d1bcd755-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_70436d91-sys-img2-1_xml"
+                  ],
+                  "commitId": "98ff793e543d66ad7daafb63a5198546e22638c3",
+                  "timestamp": 1604301594000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Dockerfile Jenkinsfile\n",
+                  "date": "2020-11-02 12:49:54 +0530",
+                  "id": "98ff793e543d66ad7daafb63a5198546e22638c3",
+                  "msg": "update Dockerfile Jenkinsfile",
+                  "paths": [
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_d1bcd755-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/analytics.settings"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_725a2f81-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_d79225ab-addon2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_d79225ab-addon2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_b735609c-repository2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_b735609c-repository2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_70436d91-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_027553a3-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_53d0da2b-addon2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_6dabee33-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_d29da320-addons_list-3_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_21774538-addon2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_d1bcd755-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_027553a3-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_48262a29-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_754d6006-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_d29da320-addons_list-3_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_53d0da2b-addon2-1_xml"
+                    },
+                    {"editType": "edit", "file": "Jenkinsfile"},
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_48262a29-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_6dabee33-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_725a2f81-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkinf-1_21774538-addon2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_70436d91-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "add",
+                      "file": "?/.android/cache/sdkbin-1_754d6006-sys-img2-1_xml"
+                    }
+                  ]
+                },
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": [
+                    "?/.android/cache/sdkbin-1_d1bcd755-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_b735609c-repository2-1_xml",
+                    "?/.android/cache/sdkbin-1_53d0da2b-addon2-1_xml",
+                    "?/.android/cache/sdkbin-1_027553a3-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_d79225ab-addon2-1_xml",
+                    "?/.android/analytics.settings",
+                    "?/.android/cache/sdkinf-1_21774538-addon2-1_xml",
+                    "?/.android/cache/sdkbin-1_725a2f81-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_70436d91-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_725a2f81-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_b735609c-repository2-1_xml",
+                    "?/.android/cache/sdkbin-1_d29da320-addons_list-3_xml",
+                    "?/.android/cache/sdkbin-1_754d6006-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_6dabee33-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_21774538-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_d79225ab-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_027553a3-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_d29da320-addons_list-3_xml",
+                    "?/.android/cache/sdkinf-1_53d0da2b-addon2-1_xml",
+                    "?/.android/cache/sdkinf-1_48262a29-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_48262a29-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_754d6006-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_6dabee33-sys-img2-1_xml",
+                    "?/.android/cache/sdkinf-1_d1bcd755-sys-img2-1_xml",
+                    "?/.android/cache/sdkbin-1_70436d91-sys-img2-1_xml"
+                  ],
+                  "commitId": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                  "timestamp": 1604301649000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "deleted unknown dir\n",
+                  "date": "2020-11-02 12:50:49 +0530",
+                  "id": "d1e41f4626b03f8fc039d638a6a72287ad0cd958",
+                  "msg": "deleted unknown dir",
+                  "paths": [
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_d79225ab-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_027553a3-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_d79225ab-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_21774538-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_48262a29-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_53d0da2b-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_48262a29-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_754d6006-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_725a2f81-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_725a2f81-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_53d0da2b-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_b735609c-repository2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_027553a3-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_d1bcd755-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_d29da320-addons_list-3_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_754d6006-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_70436d91-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_21774538-addon2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_6dabee33-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkinf-1_d1bcd755-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_6dabee33-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_b735609c-repository2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_d29da320-addons_list-3_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/cache/sdkbin-1_70436d91-sys-img2-1_xml"
+                    },
+                    {
+                      "editType": "delete",
+                      "file": "?/.android/analytics.settings"
+                    }
+                  ]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 7,
+            "url": "http://localhost:8889/job/hello_world_android/7/"
+          },
+          "previousBuild": {
+            "number": 5,
+            "url": "http://localhost:8889/job/hello_world_android/5/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 5,
+        "url": "http://localhost:8889/job/hello_world_android/5/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#5",
+          "duration": 3769,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #5",
+          "id": "5",
+          "keepLog": false,
+          "number": 5,
+          "queueId": 66,
+          "result": "FAILURE",
+          "timestamp": 1604301548552,
+          "url": "http://localhost:8889/job/hello_world_android/5/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 6,
+            "url": "http://localhost:8889/job/hello_world_android/6/"
+          },
+          "previousBuild": {
+            "number": 4,
+            "url": "http://localhost:8889/job/hello_world_android/4/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 4,
+        "url": "http://localhost:8889/job/hello_world_android/4/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 4,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                    "branch": [
+                      {
+                        "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                    "branch": [
+                      {
+                        "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                "branch": [
+                  {
+                    "SHA1": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#4",
+          "duration": 474310,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #4",
+          "id": "4",
+          "keepLog": false,
+          "number": 4,
+          "queueId": 64,
+          "result": "SUCCESS",
+          "timestamp": 1604300676357,
+          "url": "http://localhost:8889/job/hello_world_android/4/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile", "Dockerfile"],
+                  "commitId": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                  "timestamp": 1604300614000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "automating dockerized build\n",
+                  "date": "2020-11-02 12:33:34 +0530",
+                  "id": "ea28be0aa54f5e44f6657885565dfe48253d63c5",
+                  "msg": "automating dockerized build",
+                  "paths": [
+                    {"editType": "add", "file": "Dockerfile"},
+                    {"editType": "edit", "file": "Jenkinsfile"}
+                  ]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 5,
+            "url": "http://localhost:8889/job/hello_world_android/5/"
+          },
+          "previousBuild": {
+            "number": 3,
+            "url": "http://localhost:8889/job/hello_world_android/3/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 3,
+        "url": "http://localhost:8889/job/hello_world_android/3/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 3,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                    "branch": [
+                      {
+                        "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                    "branch": [
+                      {
+                        "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                "branch": [
+                  {
+                    "SHA1": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#3",
+          "duration": 10447,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #3",
+          "id": "3",
+          "keepLog": false,
+          "number": 3,
+          "queueId": 62,
+          "result": "SUCCESS",
+          "timestamp": 1604056730474,
+          "url": "http://localhost:8889/job/hello_world_android/3/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                  "timestamp": 1604056700000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-10-30 16:48:20 +0530",
+                  "id": "77ba6505e5ff6d111925db6038da2e3f2b09f352",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 4,
+            "url": "http://localhost:8889/job/hello_world_android/4/"
+          },
+          "previousBuild": {
+            "number": 2,
+            "url": "http://localhost:8889/job/hello_world_android/2/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2,
+        "url": "http://localhost:8889/job/hello_world_android/2/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 2,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                    "branch": [
+                      {
+                        "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                    "branch": [
+                      {
+                        "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                "branch": [
+                  {
+                    "SHA1": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#2",
+          "duration": 10009,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #2",
+          "id": "2",
+          "keepLog": false,
+          "number": 2,
+          "queueId": 60,
+          "result": "SUCCESS",
+          "timestamp": 1604056502898,
+          "url": "http://localhost:8889/job/hello_world_android/2/",
+          "changeSets": [
+            {
+              "_class": "hudson.plugins.git.GitChangeSetList",
+              "items": [
+                {
+                  "_class": "hudson.plugins.git.GitChangeSet",
+                  "affectedPaths": ["Jenkinsfile"],
+                  "commitId": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                  "timestamp": 1604056493000,
+                  "author": {
+                    "absoluteUrl": "http://localhost:8889/user/abhilash",
+                    "fullName": "Abhilash Kasula"
+                  },
+                  "authorEmail": "58025056+abhilashkasula@users.noreply.github.com",
+                  "comment": "update Jenkinsfile\n",
+                  "date": "2020-10-30 16:44:53 +0530",
+                  "id": "1326a109d860cf2414d1f9216ef70843e84003f0",
+                  "msg": "update Jenkinsfile",
+                  "paths": [{"editType": "edit", "file": "Jenkinsfile"}]
+                }
+              ],
+              "kind": "git"
+            }
+          ],
+          "culprits": [
+            {
+              "absoluteUrl": "http://localhost:8889/user/abhilash",
+              "fullName": "Abhilash Kasula"
+            }
+          ],
+          "nextBuild": {
+            "number": 3,
+            "url": "http://localhost:8889/job/hello_world_android/3/"
+          },
+          "previousBuild": {
+            "number": 1,
+            "url": "http://localhost:8889/job/hello_world_android/1/"
+          }
+        }
+      },
+      {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 1,
+        "url": "http://localhost:8889/job/hello_world_android/1/",
+        "build": {
+          "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+          "actions": [
+            {
+              "_class": "hudson.model.CauseAction",
+              "causes": [
+                {
+                  "_class": "hudson.model.Cause$UserIdCause",
+                  "shortDescription": "Started by user Abhilash Kasula",
+                  "userId": "abhilash",
+                  "userName": "Abhilash Kasula"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "_class": "hudson.plugins.git.util.BuildData",
+              "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                  "_class": "hudson.plugins.git.util.Build",
+                  "buildNumber": 1,
+                  "buildResult": null,
+                  "marked": {
+                    "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                    "branch": [
+                      {
+                        "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                    "branch": [
+                      {
+                        "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                        "name": "refs/remotes/origin/master"
+                      }
+                    ]
+                  }
+                }
+              },
+              "lastBuiltRevision": {
+                "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                "branch": [
+                  {
+                    "SHA1": "6c8509582648700004b4b03a86f6b45cd2b4789a",
+                    "name": "refs/remotes/origin/master"
+                  }
+                ]
+              },
+              "remoteUrls": [
+                "git@github.com:abhilashkasula/hello_world_android.git"
+              ],
+              "scmName": ""
+            },
+            {"_class": "hudson.plugins.git.GitTagAction"},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+            },
+            {},
+            {
+              "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+            },
+            {},
+            {},
+            {},
+            {}
+          ],
+          "artifacts": [],
+          "building": false,
+          "description": null,
+          "displayName": "#1",
+          "duration": 29626,
+          "estimatedDuration": 380134,
+          "executor": null,
+          "fullDisplayName": "hello_world_android #1",
+          "id": "1",
+          "keepLog": false,
+          "number": 1,
+          "queueId": 58,
+          "result": "SUCCESS",
+          "timestamp": 1604056403059,
+          "url": "http://localhost:8889/job/hello_world_android/1/",
+          "changeSets": [],
+          "culprits": [],
+          "nextBuild": {
+            "number": 2,
+            "url": "http://localhost:8889/job/hello_world_android/2/"
+          },
+          "previousBuild": null
+        }
+      }
+    ],
+    "color": "blue",
+    "firstBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 1,
+      "url": "http://localhost:8889/job/hello_world_android/1/"
+    },
+    "healthReport": [
+      {
+        "description": "Build stability: 1 out of the last 5 builds failed.",
+        "iconClassName": "icon-health-60to79",
+        "iconUrl": "health-60to79.png",
+        "score": 80
+      }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "lastBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 21,
+      "url": "http://localhost:8889/job/hello_world_android/21/"
+    },
+    "lastCompletedBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 21,
+      "url": "http://localhost:8889/job/hello_world_android/21/"
+    },
+    "lastFailedBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 17,
+      "url": "http://localhost:8889/job/hello_world_android/17/"
+    },
+    "lastStableBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 21,
+      "url": "http://localhost:8889/job/hello_world_android/21/"
+    },
+    "lastSuccessfulBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 21,
+      "url": "http://localhost:8889/job/hello_world_android/21/"
+    },
+    "lastUnstableBuild": null,
+    "lastUnsuccessfulBuild": {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+      "number": 19,
+      "url": "http://localhost:8889/job/hello_world_android/19/"
+    },
+    "nextBuildNumber": 22,
+    "property": [],
+    "queueItem": null,
+    "concurrentBuild": true,
+    "resumeBlocked": false
+  }
+}
